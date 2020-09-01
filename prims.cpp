@@ -14,7 +14,7 @@ public:
 	}
 	int mst(){
 		int visited[V]={0};
-		// in pq, first value is weight and second value is 
+		// in pq, first value is weight and second value is the node to which we are going
 		priority_queue<pair<int,int>, vector<pair<int,int> > , greater<pair<int,int> > > pq;
 		int ans =0;
 		pq.push({0,0});
